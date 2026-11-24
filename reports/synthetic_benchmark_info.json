@@ -1,0 +1,41 @@
+[
+  {
+    "seed": 1,
+    "median_abs_axis_error_m": 24.73071817085193,
+    "gp_full_fit": {
+      "length_scales": [
+        168.81955560998233,
+        46.908985233456306
+      ],
+      "signal_var_std_units": 0.6711055718768354,
+      "noise_var_std_units": 0.3142490411365199,
+      "log_marginal_likelihood": -942.1934912649197
+    }
+  },
+  {
+    "seed": 2,
+    "median_abs_axis_error_m": 24.662529651110063,
+    "gp_full_fit": {
+      "length_scales": [
+        201.8212151973546,
+        51.099899463750674
+      ],
+      "signal_var_std_units": 0.6361136196858507,
+      "noise_var_std_units": 0.3654286929020077,
+      "log_marginal_likelihood": -918.8180629271151
+    }
+  },
+  {
+    "seed": 3,
+    "median_abs_axis_error_m": 23.141130388286534,
+    "gp_full_fit": {
+      "length_scales": [
+        212.85827953125505,
+        56.0757624410973
+      ],
+      "signal_var_std_units": 0.7634419297382912,
+      "noise_var_std_units": 0.22256551245095643,
+      "log_marginal_likelihood": -868.0766448638019
+    }
+  }
+]
