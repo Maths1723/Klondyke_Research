@@ -1,0 +1,40 @@
+11:36:19 thaw-layout check: 21 co-located pairs; layout values median 2, 1103 grades median 33.4
+11:36:19   keep 1936-derived maps: 890 -> 618
+11:36:19   drop ambiguous: 618 -> 618
+11:36:19   drop within-map duplicates: 618 -> 615
+11:36:19   restore 85-4 from van Loon (2016): 1 -> 1
+11:36:19   drop zero dredge section: 615 -> 612
+11:36:20 612 holes, 71 reconstructed lines, valley 12550 m, zeros 11.8%, trace 2.5%
+11:36:34 variant base: logZ=-2775.0 ls_s=130 ls_n=33 sigma=1.21 mbar=3.85 alpha=0.58 m_eff=10.5 sd_drill=0.000 pi0=0.0000 (15s)
+11:36:46 variant drillfix: logZ=-2778.6 ls_s=214 ls_n=49 sigma=1.03 mbar=3.93 alpha=0.615 m_eff=10.3 sd_drill=0.700 pi0=0.0000 (11s)
+11:36:46 best by marginal likelihood: base
+11:36:54 LOLO fold 1/10 (8s)
+11:37:00 LOLO fold 2/10 (6s)
+11:37:06 LOLO fold 3/10 (6s)
+11:37:11 LOLO fold 4/10 (5s)
+11:37:17 LOLO fold 5/10 (6s)
+11:37:24 LOLO fold 6/10 (7s)
+11:37:32 LOLO fold 7/10 (8s)
+11:37:37 LOLO fold 8/10 (5s)
+11:37:44 LOLO fold 9/10 (7s)
+11:37:51 LOLO fold 10/10 (7s)
+11:37:57 block1000m fold 1/13 (6s)
+11:38:04 block1000m fold 2/13 (7s)
+11:38:11 block1000m fold 3/13 (7s)
+11:38:15 block1000m fold 4/13 (4s)
+11:38:23 block1000m fold 5/13 (8s)
+11:38:31 block1000m fold 6/13 (7s)
+11:38:38 block1000m fold 7/13 (7s)
+11:38:44 block1000m fold 8/13 (6s)
+11:38:52 block1000m fold 9/13 (8s)
+11:38:59 block1000m fold 10/13 (7s)
+11:39:06 block1000m fold 11/13 (7s)
+11:39:14 block1000m fold 12/13 (8s)
+11:39:21 block1000m fold 13/13 (7s)
+    crps    mae   rmse  spearman  cov50  cov90  interval_score90  top10  top20  top30  top50   method      scheme
+0  1.210  1.652  2.174     0.341  0.600  0.881             9.794  0.171  0.278  0.455  0.680  kriging        LOLO
+1  1.189  1.621  2.156     0.317  0.523  0.859            10.189  0.151  0.321  0.447  0.664       gp        LOLO
+2  1.107  1.562    NaN     0.384    NaN  0.913               NaN    NaN  0.341    NaN    NaN      cpg        LOLO
+3  1.301  1.765  2.296     0.064  0.560  0.868            10.688  0.098  0.255  0.351  0.514  kriging  block1000m
+4  1.279  1.725  2.295    -0.020  0.539  0.846            11.148  0.166  0.250  0.339  0.551       gp  block1000m
+5  1.184  1.653    NaN     0.147    NaN  0.917               NaN    NaN  0.247    NaN    NaN      cpg  block1000m

@@ -1,0 +1,11 @@
+{
+  "grid_cells":59205.0,
+  "cell_m":10.0,
+  "share_of_drilled_floor_mined":0.4458745038,
+  "share_of_drill_gold_inside_mined_ground":0.7770145079,
+  "threshold_cents_yd3":20.0,
+  "p_min":0.5,
+  "share_of_floor_above_threshold_p>pmin":0.39927371,
+  "share_of_unmined_floor_above_threshold":0.1645380559,
+  "n_targets":63.0
+}
