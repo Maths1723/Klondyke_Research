@@ -1,0 +1,31 @@
+{
+  "twins": {
+    "spearman_abs_logratio_vs_gold_positive_pairs": [
+      0.2625130637511054,
+      0.025897840142998726
+    ],
+    "spearman_abs_logratio_vs_gold_all_pairs_zeros_at_trace": [
+      0.13364020334353424,
+      0.24342704383960928
+    ],
+    "n_positive_pairs": 72,
+    "n_pairs": 78,
+    "series_offset_YCGC26438": {
+      "n": 9,
+      "median": -0.0903226382932856,
+      "share_positive": 0.4444444444444444
+    },
+    "series_offset_YCGC26341": {
+      "n": 10,
+      "median": 0.5555697790184992,
+      "share_positive": 0.7
+    }
+  },
+  "targets": {
+    "spearman_P_unmined": 0.9423663416329392,
+    "top_fifth_overlap": 0.842097241274196,
+    "jaccard_targets_reliable_frame": 0.7331313687689341,
+    "target_ha_base": 33.32,
+    "target_ha_sdhole": 29.61
+  }
+}

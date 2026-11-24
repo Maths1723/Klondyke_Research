@@ -1,0 +1,38 @@
+16:29:06 seed 11 fold 1: nugget 0.50, GP noise 1.35 (3s)
+16:29:10 seed 11 fold 2: nugget 0.29, GP noise 1.32 (3s)
+16:29:13 seed 11 fold 3: nugget 0.15, GP noise 1.20 (3s)
+16:29:16 seed 11 fold 4: nugget 0.29, GP noise 1.25 (3s)
+16:29:19 seed 11 fold 5: nugget 0.55, GP noise 1.24 (3s)
+16:29:22 seed 11 fold 6: nugget 0.00, GP noise 1.13 (3s)
+16:29:25 seed 11 fold 7: nugget 0.45, GP noise 1.31 (3s)
+16:29:31 seed 11 fold 8: nugget 0.39, GP noise 1.23 (6s)
+16:29:34 seed 11 fold 9: nugget 0.92, GP noise 1.28 (3s)
+16:29:38 seed 11 fold 10: nugget 0.97, GP noise 1.38 (3s)
+16:29:41 seed 12 fold 1: nugget 0.00, GP noise 0.73 (3s)
+16:29:44 seed 12 fold 2: nugget 0.00, GP noise 0.92 (3s)
+16:29:47 seed 12 fold 3: nugget 0.00, GP noise 0.87 (3s)
+16:29:50 seed 12 fold 4: nugget 0.00, GP noise 0.77 (3s)
+16:29:53 seed 12 fold 5: nugget 0.00, GP noise 0.75 (3s)
+16:29:56 seed 12 fold 6: nugget 0.00, GP noise 0.80 (3s)
+16:29:58 seed 12 fold 7: nugget 0.00, GP noise 0.83 (2s)
+16:30:00 seed 12 fold 8: nugget 0.00, GP noise 0.82 (2s)
+16:30:02 seed 12 fold 9: nugget 0.00, GP noise 0.72 (2s)
+16:30:04 seed 12 fold 10: nugget 0.00, GP noise 0.84 (2s)
+16:30:06 seed 13 fold 1: nugget 0.00, GP noise 1.02 (2s)
+16:30:08 seed 13 fold 2: nugget 0.00, GP noise 0.94 (2s)
+16:30:11 seed 13 fold 3: nugget 0.00, GP noise 1.05 (2s)
+16:30:13 seed 13 fold 4: nugget 0.00, GP noise 0.89 (2s)
+16:30:15 seed 13 fold 5: nugget 0.00, GP noise 1.00 (2s)
+16:30:17 seed 13 fold 6: nugget 0.00, GP noise 1.15 (2s)
+16:30:19 seed 13 fold 7: nugget 0.00, GP noise 0.92 (2s)
+16:30:21 seed 13 fold 8: nugget 0.00, GP noise 0.96 (2s)
+16:30:24 seed 13 fold 9: nugget 0.00, GP noise 1.00 (2s)
+16:30:26 seed 13 fold 10: nugget 0.00, GP noise 1.06 (2s)
+                               rmse          bias          crps         cov90        top20_gold        spearman_in_channel       
+                               mean    std   mean    std   mean    std   mean    std       mean    std                mean    std
+method                                                                                                                           
+GP                            0.837  0.013 -0.325  0.004  0.459  0.006  0.909  0.034      0.676  0.027               0.321  0.063
+GP + noise/2                  0.798  0.042  0.186  0.116  0.453  0.027  0.917  0.066      0.681  0.035               0.322  0.065
+grain-counting field (saved)  0.719  0.004 -0.095  0.035  0.411  0.003  0.960  0.008      0.695  0.030               0.348  0.079
+kriging                       0.848  0.019 -0.345  0.007  0.507  0.022  0.972  0.008      0.689  0.023               0.304  0.035
+kriging + nugget/2            0.832  0.037 -0.271  0.134  0.501  0.031  0.976  0.001      0.685  0.029               0.282  0.057
