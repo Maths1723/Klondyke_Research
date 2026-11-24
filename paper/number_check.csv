@@ -1,0 +1,411 @@
+section,statement,printed,recomputed,ok
+2 data,point records,13358.0,13358.0,True
+2 data,source maps with points,340.0,340.0,True
+2 data,drill holes,12447.0,12447.0,True
+2 data,shafts,670.0,670.0,True
+2 data,bedrock test holes,231.0,231.0,True
+2 data,records with a grade,8630.0,8630.0,True
+2 data,records with bedrock elevation,2720.0,2720.0,True
+2 data,dredge-cut and thaw polygons,5352.0,5352.0,True
+2 data,other-workings polygons,2057.0,2057.0,True
+2 data,map index entries,933.0,933.0,True
+2 data,thickness inconsistent >35%,209.0,209.0,True
+2 data,"price recorded, % of holes",14.0,13.99,True
+2 data,redrawn duplicates removed,667.0,667.0,True
+2 data,grades marked doubtful,835.0,835.0,True
+2 data,usable holes,6179.0,6179.0,True
+2 data,usable maps,122.0,122.0,True
+2 data,first year,1907.0,1907.0,True
+2 data,last year,1961.0,1961.0,True
+2 data,median section ft,14.5,14.5,True
+2 data,median grade c/yd3,9.1,9.1,True
+2 data,zero share %,6.7,6.684,True
+2 data,cross-map pairs <25 m,1982.0,1982.0,True
+2 data,identical grades,721.0,721.0,True
+2 data,ratio 1.690,68.0,68.0,True
+2 data,ratio 1.863,75.0,75.0,True
+2 data,mid-Dominion holes,612.0,612.0,True
+2 data,mid-Dominion lines,71.0,71.0,True
+2 data,mid-Dominion zeros %,11.8,11.765,True
+2 data,mid-Dominion valley km,12.6,12.55,True
+2 data,upper Sulphur holes,376.0,376.0,True
+2 data,upper Sulphur maps,9.0,9.0,True
+2 data,campaigns,33.0,33.0,True
+2 data,campaign min holes,62.0,62.0,True
+2 data,campaign max holes,393.0,393.0,True
+5 simulation,kriging_loggrade RMSE,0.848,0.84812,True
+5 simulation,kriging_loggrade RMSE sd,0.015,0.01515,True
+5 simulation,kriging_loggrade bias,-0.34,-0.3447,True
+5 simulation,kriging_loggrade CRPS,0.508,0.50802,True
+5 simulation,kriging_loggrade CRPS sd,0.019,0.01862,True
+5 simulation,kriging_loggrade cov90,0.97,0.9689,True
+5 simulation,kriging_loggrade top20,0.7,0.6965,True
+5 simulation,kriging_loggrade rho in channel,0.31,0.3143,True
+5 simulation,kriging_loggrade rho sd,0.02,0.0228,True
+5 simulation,gp_loggrade RMSE,0.837,0.83673,True
+5 simulation,gp_loggrade RMSE sd,0.012,0.01205,True
+5 simulation,gp_loggrade bias,-0.32,-0.3247,True
+5 simulation,gp_loggrade CRPS,0.46,0.45956,True
+5 simulation,gp_loggrade CRPS sd,0.006,0.006,True
+5 simulation,gp_loggrade cov90,0.91,0.9059,True
+5 simulation,gp_loggrade top20,0.68,0.6768,True
+5 simulation,gp_loggrade rho in channel,0.33,0.325,True
+5 simulation,gp_loggrade rho sd,0.06,0.0645,True
+5 simulation,cpg_field RMSE,0.719,0.71858,True
+5 simulation,cpg_field RMSE sd,0.004,0.00429,True
+5 simulation,cpg_field bias,-0.1,-0.0951,True
+5 simulation,cpg_field CRPS,0.411,0.41091,True
+5 simulation,cpg_field CRPS sd,0.003,0.0028,True
+5 simulation,cpg_field cov90,0.96,0.9599,True
+5 simulation,cpg_field top20,0.69,0.6949,True
+5 simulation,cpg_field rho in channel,0.35,0.3477,True
+5 simulation,cpg_field rho sd,0.08,0.0794,True
+5 simulation,kriging + nugget/2 RMSE,0.832,0.83237,True
+5 simulation,kriging + nugget/2 RMSE sd,0.037,0.03741,True
+5 simulation,kriging + nugget/2 bias,-0.27,-0.2713,True
+5 simulation,kriging + nugget/2 bias sd,0.13,0.1339,True
+5 simulation,kriging + nugget/2 CRPS,0.501,0.50111,True
+5 simulation,kriging + nugget/2 CRPS sd,0.031,0.03104,True
+5 simulation,kriging + nugget/2 cov90,0.98,0.9763,True
+5 simulation,GP + noise/2 RMSE,0.798,0.79769,True
+5 simulation,GP + noise/2 RMSE sd,0.042,0.04199,True
+5 simulation,GP + noise/2 bias,0.19,0.1865,True
+5 simulation,GP + noise/2 bias sd,0.12,0.1159,True
+5 simulation,GP + noise/2 CRPS,0.453,0.45263,True
+5 simulation,GP + noise/2 CRPS sd,0.027,0.0267,True
+5 simulation,GP + noise/2 cov90,0.92,0.9174,True
+5 simulation,RMSE gain vs kriging %,15.0,15.27,True
+5 simulation,RMSE gain vs GP + noise/2 %,10.0,9.92,True
+5 simulation,benchmark m_eff min,0.8,0.802,True
+5 simulation,benchmark m_eff max,1.2,1.202,True
+5 simulation,"ident (0.0, 'lines', 'grain only') m_eff",8.2,8.239,True
+5 simulation,"ident (0.0, 'lines', 'grain only') m_eff sd",0.9,0.915,True
+5 simulation,"ident (0.0, 'lines', 'grain only') RMSE",0.62,0.62,True
+5 simulation,"ident (0.0, 'lines', 'grain + per-hole') m_eff",8.2,8.203,True
+5 simulation,"ident (0.0, 'lines', 'grain + per-hole') m_eff sd",0.9,0.903,True
+5 simulation,"ident (0.0, 'lines', 'grain + per-hole') RMSE",0.62,0.6168,True
+5 simulation,"ident (0.0, 'twins', 'grain only') m_eff",9.4,9.428,True
+5 simulation,"ident (0.0, 'twins', 'grain only') m_eff sd",0.6,0.553,True
+5 simulation,"ident (0.0, 'twins', 'grain only') RMSE",0.59,0.5881,True
+5 simulation,"ident (0.0, 'twins', 'grain + per-hole') m_eff",9.2,9.201,True
+5 simulation,"ident (0.0, 'twins', 'grain + per-hole') m_eff sd",0.5,0.521,True
+5 simulation,"ident (0.0, 'twins', 'grain + per-hole') RMSE",0.59,0.5856,True
+5 simulation,"ident (0.8, 'lines', 'grain only') m_eff",8.4,8.399,True
+5 simulation,"ident (0.8, 'lines', 'grain only') m_eff sd",3.3,3.259,True
+5 simulation,"ident (0.8, 'lines', 'grain only') RMSE",0.83,0.8266,True
+5 simulation,"ident (0.8, 'lines', 'grain + per-hole') m_eff",8.1,8.107,True
+5 simulation,"ident (0.8, 'lines', 'grain + per-hole') m_eff sd",3.1,3.105,True
+5 simulation,"ident (0.8, 'lines', 'grain + per-hole') RMSE",0.7,0.7009,True
+5 simulation,"ident (0.8, 'twins', 'grain only') m_eff",11.3,11.318,True
+5 simulation,"ident (0.8, 'twins', 'grain only') m_eff sd",1.9,1.85,True
+5 simulation,"ident (0.8, 'twins', 'grain only') RMSE",0.8,0.7971,True
+5 simulation,"ident (0.8, 'twins', 'grain + per-hole') m_eff",8.1,8.101,True
+5 simulation,"ident (0.8, 'twins', 'grain + per-hole') m_eff sd",0.1,0.11,True
+5 simulation,"ident (0.8, 'twins', 'grain + per-hole') RMSE",0.68,0.6798,True
+5 simulation,"ident (0.0, 'lines') dlogZ",0.0,0.006,True
+5 simulation,"ident (0.0, 'twins') dlogZ",0.1,0.106,True
+5 simulation,"ident (0.8, 'lines') dlogZ",0.4,0.36,True
+5 simulation,"ident (0.8, 'twins') dlogZ",8.2,8.161,True
+5 simulation,"ident (0.0, 'lines') sd_hat",0.08,0.0778,True
+5 simulation,"ident (0.0, 'twins') sd_hat",0.15,0.1539,True
+5 simulation,"ident (0.8, 'lines') sd_hat",0.58,0.5776,True
+5 simulation,"ident (0.8, 'twins') sd_hat",0.68,0.6788,True
+5 simulation,RMSE cost of omitting per-hole %,18.0,17.93,True
+6.1 Dominion,logZ base,-2775.0,-2775.049,True
+6.1 Dominion,ls_s,130.0,129.64,True
+6.1 Dominion,ls_n,33.0,32.75,True
+6.1 Dominion,m_eff,10.5,10.494,True
+6.1 Dominion,mbar,3.85,3.8504,True
+6.1 Dominion,alpha,0.58,0.5796,True
+6.1 Dominion,logZ + per-hole,-2775.0,-2775.05,True
+6.1 Dominion,sd_hat per-hole,0.003,0.00255,True
+6.1 Dominion,logZ sd_h=0.7,-2778.6,-2778.556,True
+6.1 Dominion,ls_s sd_h=0.7,214.0,214.12,True
+6.1 Dominion,ls_n sd_h=0.7,49.0,49.22,True
+6.1 Dominion,m_eff sd_h=0.7,10.3,10.322,True
+6.1 Dominion,cost of sd_h=0.7,3.5,3.507,True
+6.1 Dominion,m_eff at sd_h=0.0,10.5,10.494,True
+6.1 Dominion,m_eff at sd_h=0.3,10.0,9.989,True
+6.1 Dominion,m_eff at sd_h=0.6,10.0,9.958,True
+6.1 Dominion,m_eff at sd_h=0.8,10.5,10.516,True
+6.1 Dominion,m_eff at sd_h=1.0,8.4,8.384,True
+6.1 Dominion,m_eff at sd_h=1.2,6.1,6.131,True
+6.1 Dominion,logZ pi0=0.01,-2785.8,-2785.794,True
+6.1 Dominion,m_eff pi0=0.01,11.5,11.538,True
+6.1 Dominion,logZ pi0=0.1,-2808.2,-2808.223,True
+6.1 Dominion,m_eff pi0=0.1,10.8,10.848,True
+6.1 Dominion,ls pi0=0.01,146.0,146.03,True
+6.1 Dominion,ls pi0=0.1,131.0,130.91,True
+6.1 Dominion,min m_eff over pi0 profile,10.3,10.344,True
+6.1 Dominion,max m_eff over pi0 profile,11.5,11.538,True
+6.1 Dominion,drop pi0 0 -> 0.01,10.7,10.745,True
+6.1 Dominion,fine-gold m_eff,2.3,2.337,True
+6.1 Dominion,fine-gold gap at pi0=0.1,9.4,9.425,True
+6.1 Dominion,"CV ('kriging', 'LOLO') CRPS",1.21,1.21037,True
+6.1 Dominion,"CV ('kriging', 'LOLO') rho",0.34,0.3405,True
+6.1 Dominion,"CV ('kriging', 'LOLO') cov90",0.88,0.8807,True
+6.1 Dominion,"CV ('kriging', 'LOLO') top20 %",27.8,27.815,True
+6.1 Dominion,"CV ('gp', 'LOLO') CRPS",1.189,1.18934,True
+6.1 Dominion,"CV ('gp', 'LOLO') rho",0.32,0.3171,True
+6.1 Dominion,"CV ('gp', 'LOLO') cov90",0.86,0.8595,True
+6.1 Dominion,"CV ('gp', 'LOLO') top20 %",32.1,32.098,True
+6.1 Dominion,"CV ('cpg', 'LOLO') CRPS",1.115,1.11524,True
+6.1 Dominion,"CV ('cpg', 'LOLO') rho",0.38,0.3774,True
+6.1 Dominion,"CV ('cpg', 'LOLO') cov90",0.915,0.91503,True
+6.1 Dominion,"CV ('cpg', 'LOLO') top20 %",34.9,34.929,True
+6.1 Dominion,"CV ('kriging', 'block1000m') CRPS",1.301,1.30107,True
+6.1 Dominion,"CV ('kriging', 'block1000m') rho",0.06,0.0641,True
+6.1 Dominion,"CV ('kriging', 'block1000m') cov90",0.87,0.8676,True
+6.1 Dominion,"CV ('kriging', 'block1000m') top20 %",25.5,25.478,True
+6.1 Dominion,"CV ('gp', 'block1000m') CRPS",1.279,1.27889,True
+6.1 Dominion,"CV ('gp', 'block1000m') rho",-0.02,-0.0203,True
+6.1 Dominion,"CV ('gp', 'block1000m') cov90",0.85,0.8464,True
+6.1 Dominion,"CV ('gp', 'block1000m') top20 %",25.0,24.972,True
+6.1 Dominion,"CV ('cpg', 'block1000m') CRPS",1.19,1.18998,True
+6.1 Dominion,"CV ('cpg', 'block1000m') rho",0.13,0.1314,True
+6.1 Dominion,"CV ('cpg', 'block1000m') cov90",0.913,0.9134,True
+6.1 Dominion,"CV ('cpg', 'block1000m') top20 %",27.9,27.915,True
+6.1 Dominion,CV sd_h=0.7 CRPS,1.107,1.10655,True
+6.1 Dominion,CV sd_h=0.7 rho,0.38,0.3837,True
+6.1 Dominion,CV sd_h=0.7 cov90,0.913,0.9134,True
+6.1 Dominion,CV sd_h=0.7 top20 %,34.1,34.097,True
+6.1 Dominion,floor mined %,45.0,44.59,True
+6.1 Dominion,drill gold in mined ground %,78.0,77.7,True
+6.1 Dominion,target rank correlation,0.94,0.9424,True
+6.2 twins,pairs <12 m,706.0,706.0,True
+6.2 twins,same map,85.0,85.0,True
+6.2 twins,double records,5.0,5.0,True
+6.2 twins,same hole number,6.0,6.0,True
+6.2 twins,twin pairs,78.0,78.0,True
+6.2 twins,maps,13.0,13.0,True
+6.2 twins,Bear Creek pairs,38.0,38.0,True
+6.2 twins,Gold Run pairs,15.0,15.0,True
+6.2 twins,lower Hunker pairs,9.0,9.0,True
+6.2 twins,median distance m,8.3,8.314,True
+6.2 twins,pairs with gold in both,72.0,72.0,True
+6.2 twins,median |log ratio|,1.12,1.1173,True
+6.2 twins,median factor,3.06,3.0564,True
+6.2 twins,robust variance,2.87,2.8738,True
+6.2 twins,"robust variance, no old workings",2.59,2.5868,True
+6.2 twins,pairs excluded for old workings,11.0,11.0,True
+6.2 twins,ratio to 10 mg (text),13.0,12.77,True
+6.2 twins,observed tercile 0,0.58,0.5762,True
+6.2 twins,observed tercile 1,2.45,2.4535,True
+6.2 twins,observed tercile 2,5.14,5.1397,True
+6.2 twins,tercile 0 lower mg,6.0,6.31,True
+6.2 twins,tercile 0 upper mg,88.0,88.06,True
+6.2 twins,tercile 1 lower mg,88.0,88.06,True
+6.2 twins,tercile 1 upper mg,181.0,181.25,True
+6.2 twins,tercile 2 lower mg,181.0,181.25,True
+6.2 twins,tercile 2 upper mg,1259.0,1259.17,True
+6.2 twins,"sim grains only, m_eff 10  all",0.23,0.225,True
+6.2 twins,"sim grains only, m_eff 10  tercile 0",0.81,0.8131,True
+6.2 twins,"sim grains only, m_eff 10  tercile 1",0.22,0.2157,True
+6.2 twins,"sim grains only, m_eff 10  tercile 2",0.09,0.0924,True
+6.2 twins,"sim grains only, m_eff 90  all",1.59,1.5929,True
+6.2 twins,"sim grains only, m_eff 90  tercile 0",3.99,3.9931,True
+6.2 twins,"sim grains only, m_eff 90  tercile 1",2.27,2.2714,True
+6.2 twins,"sim grains only, m_eff 90  tercile 2",0.86,0.8584,True
+6.2 twins,sim grains m_eff 10 mg + p all,1.69,1.6911,True
+6.2 twins,sim grains m_eff 10 mg + p tercile 0,2.17,2.1737,True
+6.2 twins,sim grains m_eff 10 mg + p tercile 1,1.67,1.6721,True
+6.2 twins,sim grains m_eff 10 mg + p tercile 2,1.39,1.3866,True
+6.2 twins,all n,72.0,72.0,True
+6.2 twins,all maps,11.0,11.0,True
+6.2 twins,all robust var,2.87,2.8738,True
+6.2 twins,all rv lo,0.97,0.9653,True
+6.2 twins,all rv hi,4.34,4.3393,True
+6.2 twins,all ratio10,12.7,12.674,True
+6.2 twins,all ratio10 lo,3.7,3.7,True
+6.2 twins,all ratio10 hi,23.5,23.496,True
+6.2 twins,all ratio90,1.8,1.786,True
+6.2 twins,all ratio90 lo,0.6,0.587,True
+6.2 twins,all ratio90 hi,2.9,2.892,True
+6.2 twins,all slope,0.26,0.2612,True
+6.2 twins,all slope lo,-0.04,-0.0368,True
+6.2 twins,all slope hi,0.6,0.6025,True
+6.2 twins,all perm p,0.045,0.04459,True
+6.2 twins,without_bear_creek n,37.0,37.0,True
+6.2 twins,without_bear_creek maps,10.0,10.0,True
+6.2 twins,without_bear_creek robust var,2.2,2.1973,True
+6.2 twins,without_bear_creek rv lo,0.62,0.624,True
+6.2 twins,without_bear_creek rv hi,4.54,4.5415,True
+6.2 twins,without_bear_creek ratio10,11.4,11.41,True
+6.2 twins,without_bear_creek ratio10 lo,2.2,2.179,True
+6.2 twins,without_bear_creek ratio10 hi,27.6,27.567,True
+6.2 twins,without_bear_creek ratio90,1.4,1.423,True
+6.2 twins,without_bear_creek ratio90 lo,0.4,0.364,True
+6.2 twins,without_bear_creek ratio90 hi,3.2,3.175,True
+6.2 twins,without_bear_creek slope,0.17,0.1714,True
+6.2 twins,without_bear_creek slope lo,-0.13,-0.1307,True
+6.2 twins,without_bear_creek slope hi,0.88,0.8837,True
+6.2 twins,without_bear_creek perm p,0.12,0.1154,True
+6.2 twins,without_old_workings n,61.0,61.0,True
+6.2 twins,without_old_workings maps,11.0,11.0,True
+6.2 twins,without_old_workings robust var,2.59,2.5868,True
+6.2 twins,without_old_workings rv lo,0.97,0.9725,True
+6.2 twins,without_old_workings rv hi,4.33,4.3304,True
+6.2 twins,without_old_workings ratio10,13.7,13.743,True
+6.2 twins,without_old_workings ratio10 lo,4.0,4.03,True
+6.2 twins,without_old_workings ratio10 hi,24.7,24.698,True
+6.2 twins,without_old_workings ratio90,1.8,1.758,True
+6.2 twins,without_old_workings ratio90 lo,0.6,0.583,True
+6.2 twins,without_old_workings ratio90 hi,3.0,2.966,True
+6.2 twins,without_old_workings slope,0.3,0.2957,True
+6.2 twins,without_old_workings slope lo,-0.03,-0.0308,True
+6.2 twins,without_old_workings slope hi,0.6,0.5968,True
+6.2 twins,without_old_workings perm p,0.09,0.092,True
+6.2 twins,"grain-only slope, most negative mean",-0.51,-0.509,True
+6.2 twins,"grain-only slope, least negative mean",-0.38,-0.3751,True
+6.2 twins,"grain-only slope, max 95th pct",0.04,0.0361,True
+6.2 twins,Bear Creek pairs with gold in both,35.0,35.0,True
+6.2 twins,field-fit dlogZ,1.7,1.7,True
+6.2 twins,field-fit dlogZ,2.2,2.2,True
+6.2 twins,field-fit dlogZ,9.0,9.0,True
+6.2 twins,field-fit dlogZ,15.7,15.7,True
+6.2 twins,sd_hat min,0.62,0.6167,True
+6.2 twins,sd_hat max,1.23,1.2259,True
+6.2 twins,maps with short ls_n,3.0,3.0,True
+6.2 twins,short ls_n min,5.0,5.0,True
+6.2 twins,short ls_n max,14.0,14.11,True
+6.2 twins,ls_n with per-hole min,16.0,16.47,True
+6.2 twins,ls_n with per-hole max,934.0,934.04,True
+6.2 twins,Gold Run m_eff grains,88.0,87.81,True
+6.2 twins,Gold Run m_eff per-hole,45.0,45.35,True
+6.2 twins,Hunker m_eff grains,59.0,58.69,True
+6.2 twins,Hunker m_eff per-hole,4.5,4.495,True
+6.2 twins,Hunker series offset,-0.09,-0.0903,True
+6.2 twins,Hunker positive pairs,4.0,4.0,True
+6.2 twins,Gold Run series offset,0.56,0.5556,True
+6.2 twins,Gold Run positive pairs,7.0,7.0,True
+6.2 twins,median gold per pair mg,140.0,141.6,True
+6.3 campaigns,closed intervals,29.0,29.0,True
+6.3 campaigns,profile depth min,17.0,16.93,True
+6.3 campaigns,profile depth max,285.0,285.48,True
+6.3 campaigns,depth vs info rho,0.78,0.7838,True
+6.3 campaigns,mbar min,0.1,0.1,True
+6.3 campaigns,mbar max,10.0,10.0,True
+6.3 campaigns,Dominion campaigns,6.0,6.0,True
+6.3 campaigns,Dominion mbar min,0.1,0.1,True
+6.3 campaigns,Dominion mbar max,10.0,10.0,True
+6.3 campaigns,rho mbar vs median_ds_ft,-0.49,-0.4932,True
+6.3 campaigns,p mbar vs median_ds_ft,0.004,0.00354,True
+6.3 campaigns,rho mbar vs zero_share,0.54,0.5412,True
+6.3 campaigns,p mbar vs zero_share,0.001,0.00114,True
+6.3 campaigns,rho mbar vs dist_ksd_km,-0.09,-0.0896,True
+6.3 campaigns,p mbar vs dist_ksd_km,0.62,0.6201,True
+6.3 campaigns,26222 holes,149.0,149.0,True
+6.3 campaigns,26222 m_eff grains,20.0,19.79,True
+6.3 campaigns,26222 m_eff alt,1.4,1.371,True
+6.3 campaigns,26222 dlogZ,1.6,1.563,True
+6.3 campaigns,26681 holes,393.0,393.0,True
+6.3 campaigns,26681 m_eff grains,40.0,39.56,True
+6.3 campaigns,26681 m_eff per-hole,3.5,3.462,True
+6.3 campaigns,26681 dlogZ,17.0,17.43,True
+6.3 campaigns,upper Sulphur m_eff min,29.0,29.24,True
+6.3 campaigns,upper Sulphur m_eff max,84.0,83.74,True
+6.4 Sulphur,value recovered above estimate %,23.0,22.87,True
+6.4 Sulphur,gravel above estimate %,9.0,8.65,True
+6.4 Sulphur,min yardage Myd3,0.39,0.3878,True
+6.4 Sulphur,max yardage Myd3,0.61,0.612,True
+6.4 Sulphur,recovered grade min,17.0,17.49,True
+6.4 Sulphur,recovered grade max,38.0,37.78,True
+6.4 Sulphur,YCGC estimate / holes mean,0.5,0.508,True
+6.4 Sulphur,primary: YCGC recorded estimate RMSE,0.37,0.368,True
+6.4 Sulphur,primary: YCGC recorded estimate bias %,-12.0,-11.63,True
+6.4 Sulphur,primary: mean of holes in block RMSE,0.64,0.6427,True
+6.4 Sulphur,primary: mean of holes in block bias %,74.0,74.12,True
+6.4 Sulphur,primary: kriging (leave-block-out) RMSE,0.65,0.6501,True
+6.4 Sulphur,primary: kriging (leave-block-out) bias %,75.0,75.32,True
+6.4 Sulphur,primary: grain-counting field (leave-block-out) RMSE,0.62,0.6194,True
+6.4 Sulphur,primary: grain-counting field (leave-block-out) bias %,70.0,69.55,True
+6.4 Sulphur,YCGC pearson r,0.06,0.0621,True
+6.4 Sulphur,radius 40: YCGC recorded estimate RMSE,0.37,0.368,True
+6.4 Sulphur,radius 40: YCGC recorded estimate bias %,-12.0,-11.63,True
+6.4 Sulphur,radius 40: mean of holes in block RMSE,0.64,0.6427,True
+6.4 Sulphur,radius 40: mean of holes in block bias %,74.0,74.12,True
+6.4 Sulphur,radius 40: kriging (leave-block-out) RMSE,1.09,1.0862,True
+6.4 Sulphur,radius 40: kriging (leave-block-out) bias %,-48.0,-48.49,True
+6.4 Sulphur,radius 40: grain-counting field (leave-block-out) RMSE,0.42,0.4241,True
+6.4 Sulphur,radius 40: grain-counting field (leave-block-out) bias %,29.0,29.16,True
+6.4 Sulphur,price 35: YCGC recorded estimate RMSE,0.37,0.368,True
+6.4 Sulphur,price 35: YCGC recorded estimate bias %,-12.0,-11.63,True
+6.4 Sulphur,price 35: mean of holes in block RMSE,0.62,0.6184,True
+6.4 Sulphur,price 35: mean of holes in block bias %,70.0,70.03,True
+6.4 Sulphur,price 35: kriging (leave-block-out) RMSE,0.43,0.4338,True
+6.4 Sulphur,price 35: kriging (leave-block-out) bias %,-10.0,-9.52,True
+6.4 Sulphur,price 35: grain-counting field (leave-block-out) RMSE,0.56,0.5622,True
+6.4 Sulphur,price 35: grain-counting field (leave-block-out) bias %,55.0,55.49,True
+6.4 Sulphur,pred sd Sulphur,0.9,0.8995,True
+6.4 Sulphur,pred robust Sulphur,0.64,0.6362,True
+6.4 Sulphur,spatial only Sulphur,0.29,0.2925,True
+6.4 Sulphur,pred sd Dominion,0.44,0.44,True
+6.4 Sulphur,Dominion blocks,19.0,19.0,True
+6.4 Sulphur,obs sd holes mean,0.45,0.4531,True
+6.4 Sulphur,obs robust,0.29,0.2907,True
+6.4 Sulphur,van Loon lower,0.18,0.1848,True
+6.4 Sulphur,van Loon upper,0.2,0.2026,True
+6.4 Sulphur,scan band low,0.08,0.0842,True
+6.4 Sulphur,scan band high,0.8,0.8016,True
+6.5 design,mid-Dominion pay gold,68.0,68.4,True
+6.5 design,mid-Dominion pay grain share 0.6,0.25,0.25,True
+6.5 design,mid-Dominion pay grain share 0.9,0.1,0.1,True
+6.5 design,mid-Dominion pay holes 20% lo,17.0,17.0,True
+6.5 design,mid-Dominion pay holes 20% hi,40.0,40.0,True
+6.5 design,mid-Dominion pay holes 30% lo,8.0,8.0,True
+6.5 design,mid-Dominion pay holes 30% hi,18.0,18.0,True
+6.5 design,mid-Dominion lean gold,17.0,17.1,True
+6.5 design,mid-Dominion lean grain share 0.6,0.57,0.57,True
+6.5 design,mid-Dominion lean grain share 0.9,0.32,0.32,True
+6.5 design,mid-Dominion lean holes 20% lo,32.0,32.0,True
+6.5 design,mid-Dominion lean holes 20% hi,65.0,65.0,True
+6.5 design,mid-Dominion lean holes 30% lo,15.0,15.0,True
+6.5 design,mid-Dominion lean holes 30% hi,29.0,29.0,True
+6.5 design,Gold Run pay gold,87.0,87.2,True
+6.5 design,Gold Run pay grain share 0.6,0.54,0.54,True
+6.5 design,Gold Run pay grain share 0.9,0.29,0.29,True
+6.5 design,Gold Run pay holes 20% lo,30.0,30.0,True
+6.5 design,Gold Run pay holes 20% hi,61.0,61.0,True
+6.5 design,Gold Run pay holes 30% lo,14.0,14.0,True
+6.5 design,Gold Run pay holes 30% hi,27.0,27.0,True
+6.5 design,"upper Sulphur bench, rich gold",24.0,23.9,True
+6.5 design,"upper Sulphur bench, rich grain share 0.6",0.83,0.83,True
+6.5 design,"upper Sulphur bench, rich grain share 0.9",0.63,0.63,True
+6.5 design,"upper Sulphur bench, rich holes 20% lo",86.0,86.0,True
+6.5 design,"upper Sulphur bench, rich holes 20% hi",149.0,149.0,True
+6.5 design,"upper Sulphur bench, rich holes 30% lo",39.0,39.0,True
+6.5 design,"upper Sulphur bench, rich holes 30% hi",67.0,67.0,True
+6.5 design,upper Sulphur bench ( gold,6.0,6.0,True
+6.5 design,upper Sulphur bench ( grain share 0.6,0.95,0.95,True
+6.5 design,upper Sulphur bench ( grain share 0.9,0.87,0.87,True
+6.5 design,upper Sulphur bench ( holes 20% lo,311.0,311.0,True
+6.5 design,upper Sulphur bench ( holes 20% hi,501.0,501.0,True
+6.5 design,upper Sulphur bench ( holes 30% lo,138.0,138.0,True
+6.5 design,upper Sulphur bench ( holes 30% hi,223.0,223.0,True
+6.5 design,crossover 10 mg,16.0,15.81,True
+6.5 design,crossover 50 mg,80.0,79.1,True
+6.5 design,MC ratio min (enough gold),0.79,0.7855,True
+6.5 design,MC ratio max (enough gold),1.02,1.0243,True
+6.5 design,MC ratio min (little gold),0.69,0.6936,True
+6.5 design,MC ratio max (little gold),2.05,2.0488,True
+6.6 MCMC,synthetic Laplace,9.2,9.181,True
+6.6 MCMC,synthetic MCMC median,9.4,9.361,True
+6.6 MCMC,synthetic q05,7.5,7.495,True
+6.6 MCMC,synthetic q95,12.0,12.028,True
+6.6 MCMC,dominion Laplace,10.5,10.494,True
+6.6 MCMC,dominion MCMC median,10.3,10.251,True
+6.6 MCMC,dominion q05,8.9,8.894,True
+6.6 MCMC,dominion q95,11.8,11.762,True
+6.6 MCMC,synthetic Laplace within 3% of MCMC median,3.0,3.0,True
+6.6 MCMC,dominion Laplace within 3% of MCMC median,3.0,3.0,True
+6.6 MCMC,dominion ESS below 20,1.0,1.0,True
+6.6 MCMC,R-hat last quarter,1.04,1.0399,True
+6.6 MCMC,"last-quarter median, mode chain",9.9,9.903,True
+6.6 MCMC,"last-quarter median, dispersed chain",10.2,10.165,True
+6.6 MCMC,pooled median,10.0,10.029,True
+6.6 MCMC,pooled q05,8.8,8.84,True
+6.6 MCMC,pooled q95,11.4,11.404,True
+6.6 MCMC,Laplace within 5% of pooled,5.0,5.0,True
+6.6 MCMC,last-quarter window,3500.0,3500.0,True
+6.6 MCMC,shortfall min %,10.0,10.13,True
+6.6 MCMC,shortfall max %,23.0,22.77,True
