@@ -1,0 +1,66 @@
+13:47:36 pairs < 12 m: 706; same map 85; dropped double records 5, same id 6; kept 78
+13:47:36 pairs by map:
+             n                                                                                          title  median_dist
+map_id                                                                                                                    
+YCGC26009   38                      Plan of Bear Creek claims 3 Above to 20 Below Discovery ... Plan No. 6759     7.811686
+YCGC26341   15                                        Gold Run Examination  Claims 8-35, 1941 - Plan no. 1154    10.305239
+YCGC26438    9    Plan of Placer Mining Claims from No 63 Below Discovery to Anderson Concession Hunker Creek     8.120397
+YCGC25041    4                                                   Dredge Canadian no.3 area - Prospecting 1933     8.812481
+YCGC26201    3                                               Examination Dominion  - Gold Run, April 10, 1941    10.611405
+YCGC25159    2     Arlington project - General map showing examination results and proposed method of working     9.196914
+YCGC25129    1                                       Henderson Creek examination - Detail - Claims A21 to A44    11.751790
+YCGC26006    1                                                                         Bear Creek, Dredge # 3    11.686153
+YCGC26349    1  Plan of Placer mining claims from No. 39 Below Disc. to No. 65 Below Disc. on Hunker Creek YT     9.668864
+YCGC26681    1                     Sulphur Creek drill holes claims 61-116A below Discovery. File 2. Oct 1935     4.606281
+YCGC26701c   1                                     Map of Middle Sulphur, Original and Revised, June 21, 1955    11.194563
+YCGC26771    1               Plan of Claims 3 to 13 Below Bonanza showing drill holes and proposed dredge cut     3.372786
+YCGC26785    1                                        Map showing location of shafts in Dredge No. 8 Tailings     4.307063
+13:47:36 {
+ "n_pairs": 78,
+ "n_both_positive": 72,
+ "n_with_zero": 6,
+ "median_dist_m": 8.314173373399665,
+ "robust_var_logratio": 2.873752494815469,
+ "robust_var_logratio_no_old_workings": 2.5867980852381884,
+ "n_no_old_workings": 61,
+ "median_abs_logratio": 1.1172501402966635,
+ "by_gold_tercile": [
+  {
+   "gold_mg_range": [
+    6.309297112573834,
+    88.05915047241771
+   ],
+   "n": 24,
+   "robust_var": 0.5762142896453784
+  },
+  {
+   "gold_mg_range": [
+    88.05915047241771,
+    181.25408019338124
+   ],
+   "n": 24,
+   "robust_var": 2.453470859000432
+  },
+  {
+   "gold_mg_range": [
+    181.25408019338124,
+    1259.1664298447658
+   ],
+   "n": 24,
+   "robust_var": 5.1397400850937895
+  }
+ ]
+}
+13:47:36 simulated robust var: {
+ "grains only, m_eff 10 mg (mid-Dominion fit)": 0.22500468003793644,
+ "grains only, m_eff 90 mg (coarse, Sulphur)": 1.5929045531280617,
+ "grains m_eff 10 mg + per-hole sd 0.8": 1.6910909355831187
+}
+13:48:20 YCGC25041 grain only       logZ=-1186.8 m_eff=0.6 sd_hole=0.00 ls=(15,14) (44s)
+13:48:28 YCGC25041 grain + per-hole logZ=-1177.8 m_eff=0.4 sd_hole=1.06 ls=(119,39) (8s)
+13:48:36 YCGC26009 grain only       logZ=-757.6 m_eff=14.8 sd_hole=0.00 ls=(27,5) (8s)
+13:48:48 YCGC26009 grain + per-hole logZ=-755.9 m_eff=8.8 sd_hole=1.23 ls=(50,934) (12s)
+13:48:52 YCGC26341 grain only       logZ=-994.3 m_eff=87.8 sd_hole=0.00 ls=(558,13) (4s)
+13:48:56 YCGC26341 grain + per-hole logZ=-992.1 m_eff=45.4 sd_hole=0.62 ls=(680,16) (4s)
+13:49:00 YCGC26438 grain only       logZ=-800.7 m_eff=58.7 sd_hole=0.00 ls=(33,58) (4s)
+13:49:04 YCGC26438 grain + per-hole logZ=-785.0 m_eff=4.5 sd_hole=0.70 ls=(5000,146) (5s)

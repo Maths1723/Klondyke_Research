@@ -1,0 +1,34 @@
+11:32:07 seed 21 sd_hole 0.0 lines grain only       m_eff=  9.18 (true 10.49) sd_hat=0.00 ls=(221,57) logZ=-1168.3 rmse=0.623 (6s)
+11:32:21 seed 21 sd_hole 0.0 lines grain + per-hole m_eff=  9.14 (true 10.49) sd_hat=0.02 ls=(220,57) logZ=-1168.3 rmse=0.624 (14s)
+11:32:29 seed 21 sd_hole 0.0 twins grain only       m_eff= 10.03 (true 10.49) sd_hat=0.00 ls=(225,52) logZ=-1365.1 rmse=0.532 (8s)
+11:32:39 seed 21 sd_hole 0.0 twins grain + per-hole m_eff=  9.80 (true 10.49) sd_hat=0.20 ls=(229,53) logZ=-1365.0 rmse=0.526 (10s)
+11:32:48 seed 21 sd_hole 0.8 lines grain only       m_eff=  4.83 (true 10.49) sd_hat=0.00 ls=(145,36) logZ=-1279.6 rmse=0.920 (9s)
+11:32:59 seed 21 sd_hole 0.8 lines grain + per-hole m_eff=  4.70 (true 10.49) sd_hat=0.49 ls=(158,40) logZ=-1279.5 rmse=0.818 (11s)
+11:33:15 seed 21 sd_hole 0.8 twins grain only       m_eff=  9.20 (true 10.49) sd_hat=0.00 ls=(164,41) logZ=-1475.9 rmse=0.778 (16s)
+11:33:32 seed 21 sd_hole 0.8 twins grain + per-hole m_eff=  7.98 (true 10.49) sd_hat=0.49 ls=(179,45) logZ=-1474.1 rmse=0.704 (17s)
+11:33:39 seed 22 sd_hole 0.0 lines grain only       m_eff=  7.35 (true 10.49) sd_hat=0.00 ls=(205,47) logZ=-1227.2 rmse=0.612 (7s)
+11:33:48 seed 22 sd_hole 0.0 lines grain + per-hole m_eff=  7.34 (true 10.49) sd_hat=0.01 ls=(205,47) logZ=-1227.2 rmse=0.613 (10s)
+11:33:56 seed 22 sd_hole 0.0 twins grain only       m_eff=  9.30 (true 10.49) sd_hat=0.00 ls=(205,52) logZ=-1400.7 rmse=0.638 (7s)
+11:34:06 seed 22 sd_hole 0.0 twins grain + per-hole m_eff=  8.89 (true 10.49) sd_hat=0.19 ls=(208,53) logZ=-1400.4 rmse=0.636 (10s)
+11:34:15 seed 22 sd_hole 0.8 lines grain only       m_eff= 11.21 (true 10.49) sd_hat=0.00 ls=(182,41) logZ=-1258.8 rmse=0.749 (9s)
+11:34:25 seed 22 sd_hole 0.8 lines grain + per-hole m_eff= 10.78 (true 10.49) sd_hat=0.58 ls=(216,48) logZ=-1258.3 rmse=0.639 (10s)
+11:34:35 seed 22 sd_hole 0.8 twins grain only       m_eff= 12.59 (true 10.49) sd_hat=0.00 ls=(167,31) logZ=-1469.8 rmse=0.791 (10s)
+11:34:44 seed 22 sd_hole 0.8 twins grain + per-hole m_eff=  8.15 (true 10.49) sd_hat=0.71 ls=(206,46) logZ=-1455.3 rmse=0.696 (9s)
+11:34:49 seed 23 sd_hole 0.0 lines grain only       m_eff=  8.18 (true 10.49) sd_hat=0.00 ls=(216,49) logZ=-1178.9 rmse=0.625 (5s)
+11:34:56 seed 23 sd_hole 0.0 lines grain + per-hole m_eff=  8.12 (true 10.49) sd_hat=0.20 ls=(222,51) logZ=-1178.9 rmse=0.613 (7s)
+11:35:02 seed 23 sd_hole 0.0 twins grain only       m_eff=  8.95 (true 10.49) sd_hat=0.00 ls=(202,51) logZ=-1356.8 rmse=0.594 (6s)
+11:35:11 seed 23 sd_hole 0.0 twins grain + per-hole m_eff=  8.91 (true 10.49) sd_hat=0.07 ls=(203,52) logZ=-1356.8 rmse=0.594 (9s)
+11:35:18 seed 23 sd_hole 0.8 lines grain only       m_eff=  9.15 (true 10.49) sd_hat=0.00 ls=(148,31) logZ=-1304.9 rmse=0.811 (7s)
+11:35:27 seed 23 sd_hole 0.8 lines grain + per-hole m_eff=  8.84 (true 10.49) sd_hat=0.67 ls=(187,36) logZ=-1304.5 rmse=0.646 (9s)
+11:35:39 seed 23 sd_hole 0.8 twins grain only       m_eff= 12.17 (true 10.49) sd_hat=0.00 ls=(142,29) logZ=-1476.2 rmse=0.822 (12s)
+11:35:50 seed 23 sd_hole 0.8 twins grain + per-hole m_eff=  8.18 (true 10.49) sd_hat=0.84 ls=(186,39) logZ=-1467.9 rmse=0.639 (12s)
+                                      m_eff_mean  m_eff_sd  sd_hat    ls_n  rmse_latent  dlogZ
+sd_hole_true design model                                                                     
+0.0          lines  grain + per-hole       8.203     0.903   0.078  50.600        0.617  0.006
+                    grain only             8.239     0.915   0.000  49.399        0.620  0.006
+             twins  grain + per-hole       9.201     0.521   0.154  52.767        0.586  0.106
+                    grain only             9.428     0.553   0.000  51.914        0.588  0.106
+0.8          lines  grain + per-hole       8.107     3.105   0.578  39.837        0.701  0.360
+                    grain only             8.399     3.259   0.000  36.311        0.827  0.360
+             twins  grain + per-hole       8.101     0.110   0.679  45.325        0.680  8.161
+                    grain only            11.318     1.850   0.000  31.154        0.797  8.161

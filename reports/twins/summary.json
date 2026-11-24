@@ -1,0 +1,70 @@
+{
+  "n_pairs": 78,
+  "n_both_positive": 72,
+  "n_with_zero": 6,
+  "median_dist_m": 8.314173373399665,
+  "robust_var_logratio": 2.873752494815469,
+  "robust_var_logratio_no_old_workings": 2.5867980852381884,
+  "n_no_old_workings": 61,
+  "median_abs_logratio": 1.1172501402966635,
+  "by_gold_tercile": [
+    {
+      "gold_mg_range": [
+        6.309297112573834,
+        88.05915047241771
+      ],
+      "n": 24,
+      "robust_var": 0.5762142896453784
+    },
+    {
+      "gold_mg_range": [
+        88.05915047241771,
+        181.25408019338124
+      ],
+      "n": 24,
+      "robust_var": 2.453470859000432
+    },
+    {
+      "gold_mg_range": [
+        181.25408019338124,
+        1259.1664298447658
+      ],
+      "n": 24,
+      "robust_var": 5.1397400850937895
+    }
+  ],
+  "simulated_robust_var": {
+    "grains only, m_eff 10 mg (mid-Dominion fit)": 0.22500468003793644,
+    "grains only, m_eff 90 mg (coarse, Sulphur)": 1.5929045531280617,
+    "grains m_eff 10 mg + per-hole sd 0.8": 1.6910909355831187
+  },
+  "simulated_by_tercile": {
+    "grains only, m_eff 10 mg (mid-Dominion fit)": [
+      0.8130682019787032,
+      0.21570680989069585,
+      0.0923545010063352
+    ],
+    "grains only, m_eff 90 mg (coarse, Sulphur)": [
+      3.9930929087184692,
+      2.2713961893188386,
+      0.8584073262729548
+    ],
+    "grains m_eff 10 mg + per-hole sd 0.8": [
+      2.1737246547806515,
+      1.6720948066184227,
+      1.3866265277371495
+    ]
+  },
+  "delta_logZ_per_hole_minus_grain_only": {
+    "YCGC25041": 9.03,
+    "YCGC26009": 1.7,
+    "YCGC26341": 2.19,
+    "YCGC26438": 15.69
+  },
+  "sd_hole_fitted": {
+    "YCGC25041": 1.06,
+    "YCGC26009": 1.23,
+    "YCGC26341": 0.62,
+    "YCGC26438": 0.7
+  }
+}

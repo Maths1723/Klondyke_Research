@@ -1,0 +1,11 @@
+case,gold_mg_per_sample,sd_hole,grain_share,crossover_gold_mg,holes_for_20pct,holes_for_30pct
+"mid-Dominion pay (20 c/yd³, 20 ft, m_eff 10 mg)",68.4,0.6,0.25,23.1,17,8
+"mid-Dominion pay (20 c/yd³, 20 ft, m_eff 10 mg)",68.4,0.9,0.1,8.0,40,18
+"mid-Dominion lean (5 c/yd³, 20 ft, m_eff 10 mg)",17.1,0.6,0.57,23.1,32,15
+"mid-Dominion lean (5 c/yd³, 20 ft, m_eff 10 mg)",17.1,0.9,0.32,8.0,65,29
+"upper Sulphur bench (5 c/yd³, 7 ft, m_eff 50 mg)",6.0,0.6,0.95,115.4,311,138
+"upper Sulphur bench (5 c/yd³, 7 ft, m_eff 50 mg)",6.0,0.9,0.87,40.1,501,223
+"upper Sulphur bench, rich (20 c/yd³, 7 ft, m_eff 50 mg)",23.9,0.6,0.83,115.4,86,39
+"upper Sulphur bench, rich (20 c/yd³, 7 ft, m_eff 50 mg)",23.9,0.9,0.63,40.1,149,67
+"Gold Run pay (34 c/yd³, 15 ft, m_eff 45 mg)",87.2,0.6,0.54,103.8,30,14
+"Gold Run pay (34 c/yd³, 15 ft, m_eff 45 mg)",87.2,0.9,0.29,36.1,61,27

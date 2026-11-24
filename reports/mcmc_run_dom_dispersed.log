@@ -1,0 +1,76 @@
+16:26:35 dominion: Laplace m_eff=10.49 mbar=3.85 alpha=0.58 (16s)
+16:27:02   iter 500: m_eff=37.59 mbar=9.18 alpha=0.32 beta0=5.83 ll=-2724.1
+16:27:50   iter 1000: m_eff=31.62 mbar=6.89 alpha=0.28 beta0=5.76 ll=-2623.3
+16:28:31   iter 1500: m_eff=24.65 mbar=6.77 alpha=0.38 beta0=5.73 ll=-2540.9
+16:29:34   iter 2000: m_eff=21.94 mbar=5.87 alpha=0.37 beta0=5.69 ll=-2511.6
+16:30:33   iter 2500: m_eff=19.98 mbar=5.80 alpha=0.41 beta0=5.64 ll=-2505.1
+16:31:13   iter 3000: m_eff=20.93 mbar=4.92 alpha=0.31 beta0=5.80 ll=-2491.5
+16:31:58   iter 3500: m_eff=19.63 mbar=5.98 alpha=0.44 beta0=5.83 ll=-2476.8
+16:32:39   iter 4000: m_eff=16.19 mbar=4.87 alpha=0.43 beta0=5.81 ll=-2431.6
+16:33:28   iter 4500: m_eff=16.18 mbar=4.91 alpha=0.44 beta0=5.87 ll=-2440.8
+16:34:31   iter 5000: m_eff=16.78 mbar=4.27 alpha=0.34 beta0=5.78 ll=-2439.6
+16:35:28   iter 5500: m_eff=18.86 mbar=5.08 alpha=0.37 beta0=5.80 ll=-2426.9
+16:36:15   iter 6000: m_eff=15.31 mbar=3.89 alpha=0.34 beta0=5.72 ll=-2413.6
+16:37:04   iter 6500: m_eff=19.23 mbar=4.55 alpha=0.31 beta0=5.87 ll=-2420.7
+16:37:48   iter 7000: m_eff=15.08 mbar=4.09 alpha=0.37 beta0=5.79 ll=-2396.8
+16:38:29   iter 7500: m_eff=17.36 mbar=4.62 alpha=0.36 beta0=5.73 ll=-2408.2
+16:39:10   iter 8000: m_eff=16.11 mbar=4.13 alpha=0.34 beta0=5.81 ll=-2411.1
+16:39:49   iter 8500: m_eff=15.58 mbar=5.89 alpha=0.61 beta0=5.65 ll=-2426.1
+16:40:29   iter 9000: m_eff=15.49 mbar=5.29 alpha=0.52 beta0=5.74 ll=-2407.1
+16:41:09   iter 9500: m_eff=13.40 mbar=4.01 alpha=0.43 beta0=5.64 ll=-2378.8
+16:41:51   iter 10000: m_eff=14.21 mbar=4.08 alpha=0.40 beta0=5.63 ll=-2371.0
+16:42:33   iter 10500: m_eff=15.55 mbar=4.21 alpha=0.37 beta0=5.57 ll=-2397.7
+16:43:14   iter 11000: m_eff=15.02 mbar=4.28 alpha=0.40 beta0=5.63 ll=-2386.2
+16:43:58   iter 11500: m_eff=13.82 mbar=4.35 alpha=0.46 beta0=5.58 ll=-2356.9
+16:44:43   iter 12000: m_eff=13.05 mbar=3.53 alpha=0.37 beta0=5.67 ll=-2350.4
+16:45:26   iter 12500: m_eff=11.99 mbar=4.47 alpha=0.60 beta0=5.59 ll=-2358.7
+16:46:10   iter 13000: m_eff=11.96 mbar=3.81 alpha=0.47 beta0=5.53 ll=-2335.3
+16:46:53   iter 13500: m_eff=13.61 mbar=4.03 alpha=0.42 beta0=5.55 ll=-2337.6
+16:47:35   iter 14000: m_eff=12.18 mbar=3.81 alpha=0.46 beta0=5.55 ll=-2314.4
+16:48:17   iter 14500: m_eff=10.53 mbar=3.56 alpha=0.51 beta0=5.63 ll=-2317.9
+16:49:00   iter 15000: m_eff=13.22 mbar=4.32 alpha=0.48 beta0=5.49 ll=-2340.0
+16:49:41   iter 15500: m_eff=11.88 mbar=4.11 alpha=0.53 beta0=5.52 ll=-2352.9
+16:50:24   iter 16000: m_eff=11.20 mbar=3.74 alpha=0.50 beta0=5.56 ll=-2293.0
+16:51:09   iter 16500: m_eff=10.52 mbar=3.66 alpha=0.53 beta0=5.58 ll=-2297.7
+16:51:54   iter 17000: m_eff=9.41 mbar=3.78 alpha=0.67 beta0=5.52 ll=-2292.2
+16:52:39   iter 17500: m_eff=10.48 mbar=3.47 alpha=0.50 beta0=5.53 ll=-2299.4
+16:53:24   iter 18000: m_eff=12.71 mbar=3.41 alpha=0.37 beta0=5.49 ll=-2315.6
+16:54:11   iter 18500: m_eff=10.60 mbar=3.22 alpha=0.44 beta0=5.52 ll=-2281.8
+16:54:58   iter 19000: m_eff=9.39 mbar=3.63 alpha=0.63 beta0=5.47 ll=-2269.8
+16:55:45   iter 19500: m_eff=11.07 mbar=3.77 alpha=0.52 beta0=5.53 ll=-2282.1
+16:56:29   iter 20000: m_eff=10.73 mbar=3.70 alpha=0.53 beta0=5.57 ll=-2290.0
+16:56:29 {
+ "laplace": {
+  "m_eff": 10.493905983024911,
+  "mbar": 3.850415809750255,
+  "alpha": 0.5795772567316585,
+  "beta0": 5.641613765418887
+ },
+ "mcmc_m_eff_q05_50_95": [
+  9.521452266045726,
+  12.467428750083354,
+  16.61906488024658
+ ],
+ "mcmc_mbar_q05_50_95": [
+  3.292032353576941,
+  4.034638073064894,
+  5.035959802795734
+ ],
+ "mcmc_alpha_q05_50_95": [
+  0.360050873219123,
+  0.4747077651784179,
+  0.6274400523801188
+ ],
+ "mcmc_beta0_q05_50_95": [
+  5.481483894662408,
+  5.588620308036321,
+  5.802308643651841
+ ],
+ "ess_m_eff": 3.2532341952406454,
+ "n_kept": 14000,
+ "truth": null,
+ "m_eff_median_first_half": 14.76197105563399,
+ "m_eff_median_second_half": 10.816413194826684,
+ "secs": 1809,
+ "rhat_log_m_eff": 1.4419004301807075
+}
