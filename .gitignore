@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+raw/*
+!raw/.keep
+data/interim/*
+data/processed/*
+!data/**/.keep

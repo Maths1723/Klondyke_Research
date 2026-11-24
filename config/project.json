@@ -1,0 +1,10 @@
+{
+  "name": "dominion",
+  "creek_filter": null,
+  "bbox": null,
+  "target_crs": "EPSG:3578",
+  "line_order": "claim_no",
+  "downstream": "increasing",
+  "dredge_layer": null,
+  "elev_unit": null
+}
