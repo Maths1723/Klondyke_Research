@@ -1,0 +1,8 @@
+map_id,reference_map,inferred_price,n_pairs,recorded_price,status
+YCGC26345,YCGC25128,38.5,61,38.5,confirms recorded
+YCGC26344,YCGC25126,35.0,38,35.0,confirms recorded
+YCGC26343,YCGC25129,38.5,16,,NEW (unrecorded)
+YCGC25097,YCGC26199,35.0,14,,NEW (unrecorded)
+YCGC26344,YCGC25128,35.0,12,35.0,confirms recorded
+YCGC25097,YCGC26225a,35.0,11,,NEW (unrecorded)
+YCGC26345,YCGC25129,38.5,3,38.5,confirms recorded
