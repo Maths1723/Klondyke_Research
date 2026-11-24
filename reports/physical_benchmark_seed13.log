@@ -1,0 +1,29 @@
+11:19:08 747 holes; zeros 2.4%, trace 3.6%; median grains/sample 5
+11:19:08 full-data CPG fit (grain parameters)...
+11:24:45   {'sigma': 1.3875142820495683, 'ls_s': 147.33085136889483, 'ls_n': 47.48065165672932, 'beta0': 4.378291872115679, 'mbar': 0.42042015866911964, 'alpha': 0.5919188086501712, 'tau': 0.0, 'sd_drill': 0.0, 'pi0': 0.0, 'm_eff': 1.1306867569342733, 'logZ': -2598.742047146863, 'n_params': 6, 'converged': True, 'n_iter': 18}
+11:25:10 LOLO fold 1/8  26s
+11:25:33 LOLO fold 2/8  22s
+11:25:53 LOLO fold 3/8  21s
+11:26:12 LOLO fold 4/8  19s
+11:26:38 LOLO fold 5/8  26s
+11:27:03 LOLO fold 6/8  25s
+11:27:20 LOLO fold 7/8  17s
+11:27:43 LOLO fold 8/8  22s
+11:27:58 block1000m fold 1/9  16s
+11:28:14 block1000m fold 2/9  16s
+11:28:35 block1000m fold 3/9  21s
+11:28:59 block1000m fold 4/9  23s
+11:29:19 block1000m fold 5/9  20s
+11:29:37 block1000m fold 6/9  18s
+11:30:01 block1000m fold 7/9  23s
+11:30:24 block1000m fold 8/9  23s
+11:30:42 block1000m fold 9/9  18s
+   top20_gold  spearman_in_channel   rmse   bias  spearman   crps  cov90  cov50            method      scheme  p_zero_pred_mean  p_zero_obs  brier_zero  brier_zero_climatology
+0       0.726                0.338  0.864 -0.349     0.764  0.527  0.977  0.834  kriging_loggrade        LOLO               NaN         NaN         NaN                     NaN
+1       0.704                0.397  0.840 -0.332     0.740  0.463  0.922  0.644       gp_loggrade        LOLO               NaN         NaN         NaN                     NaN
+2       0.730                0.415  0.715 -0.095     0.706  0.412  0.969  0.755         cpg_field        LOLO               NaN         NaN         NaN                     NaN
+3         NaN                  NaN    NaN    NaN       NaN    NaN    NaN    NaN         cpg_field        LOLO             0.031       0.024       0.023                   0.024
+4       0.254               -0.016  1.205 -0.393     0.291  0.669  0.924  0.814  kriging_loggrade  block1000m               NaN         NaN         NaN                     NaN
+5       0.285                0.040  1.172 -0.326     0.382  0.618  0.885  0.801       gp_loggrade  block1000m               NaN         NaN         NaN                     NaN
+6       0.312               -0.039  1.152 -0.228     0.333  0.617  0.901  0.815         cpg_field  block1000m               NaN         NaN         NaN                     NaN
+7         NaN                  NaN    NaN    NaN       NaN    NaN    NaN    NaN         cpg_field  block1000m             0.040       0.024       0.023                   0.024
