@@ -1,0 +1,40 @@
+{
+  "upper_Sulphur": {
+    "m_eff_mg": 80.31068534993813,
+    "n_blocks": 9,
+    "median_holes_per_block": 7.0,
+    "predicted_sd_log_error": 0.8995449389045426,
+    "predicted_sd_spatial_only": 0.2924747108770519,
+    "observed_sd_log_act_over_ycgc": 0.36391005549036276,
+    "observed_sd_log_act_over_holes_mean": 0.4531357405116652,
+    "predicted_robust_sd": 0.6362193297687535,
+    "predicted_robust_sd_spatial_only": 0.2717150583432744,
+    "observed_robust_sd_holes_mean": 0.29074604625678485,
+    "pit_centered": [
+      0.536,
+      0.424,
+      0.865,
+      0.956,
+      0.459,
+      0.355,
+      0.261,
+      0.5,
+      0.639
+    ],
+    "share_obs_within_central_50": 0.7777777777777778,
+    "share_obs_within_central_90": 0.8888888888888888
+  },
+  "mid_Dominion": {
+    "m_eff_mg": 10.493905982506751,
+    "n_blocks": 19,
+    "median_holes_per_block": 14.0,
+    "predicted_sd_log_error": 0.4399949686410347,
+    "predicted_sd_spatial_only": 0.3577370073767886,
+    "observed_sd_log_vanLoon_lower_bound_range": [
+      0.18478626274978352,
+      0.20263088759473172
+    ],
+    "predicted_robust_sd": 0.3209742200697878,
+    "predicted_robust_sd_spatial_only": 0.26854519624199186
+  }
+}

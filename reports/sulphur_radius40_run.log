@@ -1,0 +1,29 @@
+16:33:01 376 holes on 9 maps, 199 lines (radius 40 m)
+16:33:02 fit on all holes
+16:33:19   CPG: {"sigma": 0.959, "ls_s": 137.498, "ls_n": 19.773, "beta0": 5.991, "mbar": 17.617, "alpha": 0.227, "tau": 0.0, "sd_drill": 0.0, "pi0": 0.0, "m_eff": 95.07, "logZ": -1483.192, "n_params": 6, "converged": true, "n_iter": 24}
+16:33:29   leave-block-out 1950: cpg 25.3  kriging 6.1  actual 27.1 (10s)
+16:33:38   leave-block-out 1951: cpg 32.1  kriging 11.0  actual 23.9 (9s)
+16:33:49   leave-block-out 1952: cpg 30.7  kriging 25.8  actual 25.7 (11s)
+16:34:00   leave-block-out 1953: cpg 32.7  kriging 31.7  actual 22.2 (11s)
+16:34:18   leave-block-out 1954: cpg 31.6  kriging 8.3  actual 17.5 (18s)
+16:34:31   leave-block-out 1955: cpg 27.3  kriging 6.3  actual 18.7 (13s)
+16:34:48   leave-block-out 1956: cpg 34.5  kriging 8.9  actual 37.8 (18s)
+16:35:03   leave-block-out 1957: cpg 23.8  kriging 4.4  actual 28.8 (14s)
+16:35:17   leave-block-out 1958: cpg 47.6  kriging 11.3  actual 19.3 (14s)
+  YEAR  n_holes  est_c  holes_mean  kriging_block  cpg_block  kriging_lbo  cpg_lbo  act_c
+1950.0        8   12.8        41.5            9.7       28.9          6.1     25.3   27.1
+1951.0        5   20.1        30.0           12.1       33.7         11.0     32.1   23.9
+1952.0        9   24.2        60.8           14.5       37.9         25.8     30.7   25.7
+1953.0        5   30.1        94.8           15.3       39.2         31.7     32.7   22.2
+1954.0        7   18.1        23.9            8.7       30.8          8.3     31.6   17.5
+1955.0       10   15.1        21.4            7.3       31.9          6.3     27.3   18.7
+1956.0        6   24.8        35.0           10.9       36.1          8.9     34.5   37.8
+1957.0        7   20.5        41.6            5.3       27.5          4.4     23.8   28.8
+1958.0        4   29.8        35.9           13.9       45.8         11.3     47.6   19.3
+                             estimator  n_blocks  bias_total  mean_log_err  rmse_log  spearman  pearson
+                YCGC recorded estimate         9      -0.116        -0.133     0.368     0.133    0.062
+                mean of holes in block         9       0.741         0.480     0.643     0.450    0.081
+                   kriging (all holes)         9      -0.557        -0.838     0.934    -0.033   -0.071
+      grain-counting field (all holes)         9       0.410         0.359     0.465    -0.200   -0.159
+             kriging (leave-block-out)         9      -0.485        -0.845     1.086    -0.217   -0.112
+grain-counting field (leave-block-out)         9       0.292         0.264     0.424    -0.183   -0.209
